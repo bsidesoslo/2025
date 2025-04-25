@@ -1,0 +1,38 @@
+title: BSides Oslo 2025
+event:
+  location: Vulkan Arena
+  time: 30 October 2025 
+
+show_buttons: true
+buttons:
+ - text: Call for Presenters
+   url: "https://forms.gle/M5BfbGpqhdmZL29N6"
+
+# Social media links
+socials:
+- id: mastadon
+  svg: mastadon
+  url: https://infosec.exchange/@bsidesoslo
+- id: bluesky
+  svg: bsky
+  url: https://bsky.app/profile/bsidesoslo.no
+- id: twitter
+  svg: twitter
+  url: https://twitter.com/oslobsides
+- id: email
+  svg: letter
+  url: mailto:info@bsidesoslo.no 
+
+# Website stuff
+exclude: 
+ - .sass-cache/
+ - .jekyll-cache/
+ - gemfiles/
+ - Gemfile
+ - Gemfile.lock
+ - node_modules/
+ - vendor/*
+ - CODE_OF_CONDUCT.md
+ - LICENSE
+ - README.md
+ - .devcontainers

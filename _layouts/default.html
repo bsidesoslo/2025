@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+
+    <header class="page-header" role="banner">
+      <a href="/">
+        <img src="/assets/images/BSides_Logo.svg" />
+      </a>
+      <h2 class="tagline">{{ site.event.time }} at {{ site.event.location }}</h2>
+      {% if site.show_buttons %}
+        {%- for link in site.buttons %}
+        <a href="{{ link.url }}" class="btn">{{ link.text }}</a>
+        {% endfor %}
+      {% endif %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <div class="credits left">
+          <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> BSides Oslo 2025.</p>
+        </div>
+        <div id="socials">
+          <ul>
+            {%- for social in site.socials %}
+            <a href="{{social.url}}">
+              <svg class="social" >
+                <use xlink:href="/assets/icons.svg#{{social.svg}}" />
+              </svg>
+            </a>
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="credits right">
+        <p><a href="/pages/CodeOfConduct.html">Code of Conduct</a> | <a href="/pages/Attributions.html">Attributions</a></p>
+      </div>
+      </footer>
+    </main>
+  </body>
+</html>
