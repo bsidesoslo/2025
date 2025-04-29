@@ -20,6 +20,12 @@
   }
 }
 
+@media print {
+  .btn, footer, .tagline{
+    display: none !important;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
