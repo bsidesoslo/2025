@@ -1,6 +1,7 @@
 ---
-title: BSides Oslo 2025 Sponsorship Prime
+title: BSides Oslo 2025 Sponsorship Primer
 layout: page
+updated: 2025-05-30
 ---
 Security BSides is a global network of independent information security conferences and events that are connected through their common goal of promoting a more accessible, community-driven and inclusive approach to information security and privacy education. The first Security BSides event was held in Las Vegas in 2009 as an alternative to more commercial conferences. Since 2009, Security BSides has grown to provide a global support network and tools that have allowed organizers around the world to hold hundreds of accessible, community-driven, inclusive information security conferences in more than 100 cities. BSides Oslo event is organized by a Norwegian non-profit (Digital Resilience Group org nr. 921584237) created for this purpose and with the support and involvement of [www.securitybsides.org](http://www.securitybsides.org/).
 
