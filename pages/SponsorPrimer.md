@@ -17,6 +17,8 @@ Be associated with the next big thing: Nobody knows what the â€œnext big thingâ€
 Brand recognition and awareness: Depending on the level of sponsorship, you may receive brand placement with some or all of the following: t-shirts, digital media, print media, conference job board (on-screen during breaks) and stand-up banner. This is your chance to associate your brand with the future of security and privacy and put your org on the radar for top talent across a range of information security fields and experience levels.
 
 **PLATINUM SPONSORSHIP PACKAGE (limited to 1)**<br/>
+120,000 NOK (plus VAT)
+
 Recognition as "Platinum Sponsor" Title.<br/>
 8 Tickets.<br/>
 Logo on participant lanyards.<br/>
@@ -30,6 +32,8 @@ Premium Placement on Video Archive Splash Page.<br/>
 Access to Job Board.<br/>
 
 **GOLD SPONSORSHIP PACKAGE (limited to 2)**<br/>
+55,000 NOK (plus VAT)
+
 Recognition as "Gold Sponsor" Title.<br/>
 4 Tickets.<br/>
 Premium Recognition on Website and Marketing Materials.<br/>
@@ -41,6 +45,7 @@ Access to Job Board.<br/>
 
 
 **SILVER SPONSORSHIP PACKAGE (limited to 6)**<br/>
+20,000 NOK (plus VAT)
 
 2 Tickets.<br/>
 Recognition on Website and Marketing Materials.<br/>
@@ -51,6 +56,8 @@ Access to Job Board.<br/>
 
 
 **COMMUNITY SPONSORSHIP PACKAGE (unlimited*)**<br/>
+5,000 NOK (plus VAT)
+
 2 Tickets.<br/>
 Recognition on Website.<br/>
 Placement on Conference T-Shirt.<br/>
