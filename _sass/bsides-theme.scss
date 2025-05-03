@@ -1,24 +1,13 @@
-@import "normalize";
-@import "variables";
+@forward "sponsors";
+@forward "footer";
+@forward "normalize";
+
+
+@use "variables";
+@use "mixins";
+@use "sass:color";
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
-
-@mixin large {
-  @media screen and (min-width: #{$large-breakpoint}) {
-    @content;
-  }
-}
-
-@mixin medium {
-  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
-    @content;
-  }
-}
-
-@mixin small {
-  @media screen and (max-width: #{$medium-breakpoint}) {
-    @content;
-  }
-}
 
 @media print {
   .btn, footer, .tagline{
@@ -36,7 +25,11 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: $body-text-color;
+  color: variables.$body-text-color;
+}
+
+.section {
+  text-align: center;
 }
 
 #skip-to-content {
@@ -52,13 +45,13 @@ body {
     left: 10px;
     height: auto;
     width: auto;
-    background: invert($body-link-color);
-    outline: thick solid invert($body-link-color);
+    background: color.invert(variables.$body-link-color);
+    outline: thick solid variables.$body-link-color;
   }
 }
 
 a {
-  color: $body-link-color;
+  color: variables.$body-link-color;
   text-decoration: none;
 
   &:hover {
@@ -69,7 +62,7 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: $header-heading-color;
+  color: variables.$header-heading-color;
   background-color: #ffffff14;
   border-color: rgba(161, 32, 50, 0.2);
   border-style: solid;
@@ -88,16 +81,16 @@ a {
     margin-left: 1rem;
   }
 
-  @include large {
+  @include mixins.large {
     padding: 0.75rem 1rem;
   }
 
-  @include medium {
+  @include mixins.medium {
     padding: 0.6rem 0.9rem;
     font-size: 0.9rem;
   }
 
-  @include small {
+  @include mixins.small {
     display: block;
     width: 100%;
     padding: 0.75rem;
@@ -111,24 +104,23 @@ a {
 }
 
 .page-header {
-  color: $header-heading-color;
+  color: variables.$header-heading-color;
   text-align: center;
-  background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  background-color: variables.$header-bg-color;
+  background-image: linear-gradient(120deg, variables.$header-bg-color-secondary, variables.$header-bg-color);
 
-  @include large {
-    padding: 2rem 6rem;
+  @include mixins.large {
+    padding: 2rem 1rem;
   }
 
-  @include medium {
+  @include mixins.medium {
     padding: 3rem 4rem;
   }
 
-  @include small {
+  @include mixins.small {
     padding: 2rem 1rem;
   }
 }
-
 
 .page-header img{
   height: 10em;
@@ -138,15 +130,15 @@ a {
   margin-top: 0;
   margin-bottom: 0.1rem;
 
-  @include large {
+  @include mixins.large {
     font-size: 3.25rem;
   }
 
-  @include medium {
+  @include mixins.medium {
     font-size: 2.25rem;
   }
 
-  @include small {
+  @include mixins.small {
     font-size: 1.75rem;
   }
 }
@@ -156,15 +148,15 @@ a {
   font-weight: normal;
   opacity: 0.7;
 
-  @include large {
+  @include mixins.large {
     font-size: 1.25rem;
   }
 
-  @include medium {
+  @include mixins.medium {
     font-size: 1.15rem;
   }
 
-  @include small {
+  @include mixins.small {
     font-size: 1rem;
   }
 }
@@ -176,21 +168,25 @@ a {
     margin-top: 0;
   }
 
-  @include large {
+  @include mixins.large {
     max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem;
   }
 
-  @include medium {
+  @include mixins.medium {
     padding: 2rem 4rem;
     font-size: 1.1rem;
   }
 
-  @include small {
+  @include mixins.small {
     padding: 2rem 1rem;
     font-size: 1rem;
+  }
+
+  .main-content h1, h2, h3, h4{
+    text-align: center;
   }
   
   kbd {
@@ -220,7 +216,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: $section-headings-color;
+    color: variables.$section-headings-color;
   }
 
   p {
@@ -231,8 +227,8 @@ a {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.9rem;
-    color: $code-text-color;
-    background-color: $code-bg-color;
+    color: variables.$code-text-color;
+    background-color: variables.$code-bg-color;
     border-radius: 0.3rem;
   }
 
@@ -241,17 +237,17 @@ a {
     margin-top: 0;
     margin-bottom: 1rem;
     font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    color: $code-text-color;
+    color: variables.$code-text-color;
     word-wrap: normal;
-    background-color: $code-bg-color;
-    border: solid 1px $border-color;
+    background-color: variables.$code-bg-color;
+    border: solid 1px variables.$border-color;
     border-radius: 0.3rem;
 
     > code {
       padding: 0;
       margin: 0;
       font-size: 0.9rem;
-      color: $code-text-color;
+      color: variables.$code-text-color;
       word-break: normal;
       white-space: pre;
       background: transparent;
@@ -304,8 +300,8 @@ a {
   blockquote {
     padding: 0 1rem;
     margin-left: 0;
-    color: $blockquote-text-color;
-    border-left: 0.3rem solid $border-color;
+    color: variables.$blockquote-text-color;
+    border-left: 0.3rem solid variables.$border-color;
 
     > :first-child {
       margin-top: 0;
@@ -331,7 +327,7 @@ a {
     th,
     td {
       padding: 0.5rem 1rem;
-      border: 1px solid $table-border-color;
+      border: 1px solid variables.$table-border-color;
     }
   }
 
@@ -355,64 +351,7 @@ a {
     height: 2px;
     padding: 0;
     margin: 1rem 0;
-    background-color: $hr-border-color;
+    background-color: variables.$hr-border-color;
     border: 0;
   }
-}
-
-// Footer stuff
-
-#socials {
-  text-align: center;
-  width: 100%;
-}
-#socials ul{
-  list-style-type: none;
-  display: block;
-}
-
-.left {
-  text-align: left;
-}
-
-.right{
-  text-align: right;
-}
-
-#socials svg {
-  fill: $social-icon-color;
-  width: 32px;
-  height: 32px;
-  padding: 0px 5px 5px 0;  
-}
-
-@media screen and (400px <= width) {
-  #socials svg {
-    width: 24px;
-    height: 24px;
-    padding: 0px 2px 2px 0;  
-  }
-}
-
-.site-footer {
-  padding-top: 2rem;
-  margin-top: 2rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
-  @include large {
-    font-size: 1rem;
-  }
-
-  @include medium {
-    font-size: 1rem;
-  }
-
-  @include small {
-    font-size: 0.9rem;
-  }
-}
-
-.site-footer .credits {
-  color: $blockquote-text-color;
 }

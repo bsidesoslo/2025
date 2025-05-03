@@ -11,20 +11,10 @@
     <link rel="stylesheet" href="/assets/css/style.css">
   </head>
   <body>
-
-    <header class="page-header" role="banner">
-      <a href="/">
-        <img src="/assets/images/BSides_Logo.svg" />
-      </a>
-      <h2 class="tagline">{{ site.event.time }} at {{ site.event.location }}</h2>
-      {% if site.show_buttons %}
-        {%- for link in site.buttons %}
-        <a href="{{ link.url }}" class="btn">{{ link.text }}</a>
-        {% endfor %}
-      {% endif %}
-    </header>
+    {% include header.html %}
 
     <main id="content" class="main-content" role="main">
+      {% include sponsors.html %}
       {{ content }}
 
       <footer class="site-footer">

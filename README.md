@@ -4,6 +4,17 @@
 
 Website for the BSides Oslo 2025 conference.
 
+## Adding sponors
+
+Add sponsors by placing their logo in `assets/images/sponsors`, then add their info in `_data/sponsors.yaml` at their respective sponsorship level and using this structure:
+```yaml
+-  name: Name of sponsor
+   logo: Filename of their logo
+   url: URL to their website
+```
+
+---
+
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 

@@ -1,0 +1,60 @@
+@use "mixins";
+
+#sponsors div {
+  align-self: center;
+  justify-self: center;
+}
+
+#sponsors img {
+  aspect-ratio: auto;
+  padding: 1em;
+  max-height: 20vh;
+}
+
+#sponsors .platinum {
+  display: inline-grid;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+}
+
+#sponsors .platinum img {
+  max-height: 30vh;
+}
+
+#sponsors .gold {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+
+#sponsors .silver {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#sponsors .community {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+#sponsors .community div{
+    justify-content: center;
+}
+
+@include mixins.small {
+
+  #sponsors .platinum img {
+    max-height: 13vh;
+  }
+
+  #sponsors img {
+    max-height: 10vh;
+  }
+
+  #sponsors .community {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+}
