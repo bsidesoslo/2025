@@ -13,6 +13,9 @@ buttons:
 
 # Social media links
 socials:
+- id: youtube
+  svg: youtube
+  url: https://www.youtube.com/bsidesoslo
 - id: mastadon
   svg: mastadon
   url: https://infosec.exchange/@bsidesoslo
