@@ -1,7 +1,3 @@
-    {% if page.layout == "page" %}
-    <meta property="og:name" content="{{page.title}}" />
-    {% else %}
-    <meta property="og:name" content="{{ site.title }}" />
-    {%- endif %}
+<meta property="og:name" content="{{ page.title | default: site.title }}" />
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="og:image" content="{{site.url}}/assets/images/BSides_Preview.png" />
