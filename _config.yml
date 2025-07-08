@@ -6,6 +6,8 @@ event:
 
 show_buttons: true
 buttons:
+ - text: Tickets
+   url: https://www.letsreg.com/no/event/bsidesoslo2025
  - text: Call for Presenters
    url: "https://forms.gle/M5BfbGpqhdmZL29N6"
  - text: Sponsor information
@@ -22,6 +24,9 @@ socials:
 - id: bluesky
   svg: bsky
   url: https://bsky.app/profile/bsidesoslo.no
+- id: linkedin
+  svg: linkedin
+  url: https://www.linkedin.com/company/bsidesoslo
 - id: twitter
   svg: twitter
   url: https://twitter.com/oslobsides
