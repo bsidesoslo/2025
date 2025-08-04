@@ -6,6 +6,9 @@ gold:
   - logo: mnemonic.png
     name: Mnemonic
     url: https://www.mnemonic.io/
+  - logo: promon.png
+    name: Promon
+    url: https://www.promon.io/
 silver:
 community:
   - name: O3c Cyber
