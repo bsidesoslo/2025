@@ -1,13 +1,16 @@
 platinum:
 gold:
-- logo: defendable.svg
-  name: Defendable
-  url: https://www.defendable.no/
+  - logo: defendable.svg
+    name: Defendable
+    url: https://www.defendable.no/
+  - logo: mnemonic.png
+    name: Mnemonic
+    url: https://www.mnemonic.io/
 silver:
 community:
-  -  name: O3c Cyber
-     logo: 03c.png
-     url: https://o3c.no
+  - name: O3c Cyber
+    logo: 03c.png
+    url: https://o3c.no
   - logo: binary_security.svg
     name: Binary Security
     url: https://www.binarysecurity.no/
