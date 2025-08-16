@@ -1,7 +1,7 @@
 ---
 title: BSides Oslo 2025 Sponsorship Primer
 layout: page
-updated: 2025-05-30
+updated: 2025-08-16
 ---
 Security BSides is a global network of independent information security conferences and events that are connected through their common goal of promoting a more accessible, community-driven and inclusive approach to information security and privacy education. The first Security BSides event was held in Las Vegas in 2009 as an alternative to more commercial conferences. Since 2009, Security BSides has grown to provide a global support network and tools that have allowed organizers around the world to hold hundreds of accessible, community-driven, inclusive information security conferences in more than 100 cities. BSides Oslo event is organized by a Norwegian non-profit (Digital Resilience Group org nr. 921584237) created for this purpose and with the support and involvement of [www.securitybsides.org](http://www.securitybsides.org/).
 
@@ -17,7 +17,7 @@ Be associated with the next big thing: Nobody knows what the â€œnext big thingâ€
 
 Brand recognition and awareness: Depending on the level of sponsorship, you may receive brand placement with some or all of the following: t-shirts, digital media, print media, conference job board (on-screen during breaks) and stand-up banner. This is your chance to associate your brand with the future of security and privacy and put your org on the radar for top talent across a range of information security fields and experience levels.
 
-**GOLD SPONSORSHIP PACKAGE (limited to 2)**<br/>
+**GOLD SPONSORSHIP PACKAGE**<br/>
 55,000 NOK (plus VAT)
 
 Recognition as "Gold Sponsor" Title.<br/>
@@ -30,7 +30,7 @@ Premium Placement on Video Archive Splash Page.<br/>
 Access to Job Board.<br/>
 
 
-**SILVER SPONSORSHIP PACKAGE (limited to 6)**<br/>
+**SILVER SPONSORSHIP PACKAGE**<br/>
 20,000 NOK (plus VAT)
 
 2 Tickets.<br/>
@@ -41,7 +41,7 @@ Placement on Video Archive Splash Page.<br/>
 Access to Job Board.<br/>
 
 
-**COMMUNITY SPONSORSHIP PACKAGE (unlimited*)**<br/>
+**COMMUNITY SPONSORSHIP PACKAGE**<br/>
 5,000 NOK (plus VAT)
 
 2 Tickets.<br/>
@@ -50,8 +50,7 @@ Placement on Conference T-Shirt.<br/>
 Shared Placement on Intermission Slide Show.<br/>
 Placement on Video Archive Splash Page.<br/>
 
-
-*Community sponsorship is for individuals or organizations who meet any of the following criteria:
+Community sponsorship is for individuals or organizations who meet any of the following criteria:
  - <20mNOK annual revenue
  - <10 employees
  - non-profit
@@ -61,3 +60,4 @@ Sponsorship funds will be used solely to cover costs of executing a Security BSi
 We are excited to offer the chance to sponsor BSides Oslo and be a supporting participant in this unique, grassroots information security event. Please send us an email at [sponsors@bsidesoslo.no](mailto:sponsors@bsidesoslo.no) if you have any questions or would like to become a sponsor.
 
 Thank you for your support!
+
