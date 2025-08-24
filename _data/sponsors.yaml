@@ -9,6 +9,10 @@ gold:
     name: Promon
     url: https://www.promon.io/
 silver:
+  - logo: gurusoft.png
+    name: Gurusoft
+    url: https://www.gurusoft.no/
+  
 community:
   - name: O3c Cyber
     logo: 03c.png
