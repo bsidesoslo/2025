@@ -1,6 +1,7 @@
 @import "sponsors";
 @import "footer";
 @import "normalize";
+@import "speakers";
 
 
 @import "variables";
@@ -356,4 +357,13 @@ a {
 p.updated{
   font-style: italic;
   padding-top: 1em;
+}
+
+#program ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+#program li {
+  padding-bottom: 0.3rem;
 }

@@ -1,0 +1,19 @@
+<footer class="site-footer">
+    <div class="credits left">
+        <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> BSides Oslo 2025.</p>
+    </div>
+    <div id="socials">
+        <ul>
+        {%- for social in site.socials %}
+        <a href="{{social.url}}">
+            <svg class="social" >
+            <use xlink:href="/assets/icons.svg#{{social.svg}}" />
+            </svg>
+        </a>
+        {%- endfor %}
+    </ul>
+    </div>
+    <div class="credits right">
+        <p><a href="/pages/CodeOfConduct.html">Code of Conduct</a> | <a href="/pages/Attributions.html">Attributions</a></p>
+    </div>
+</footer>

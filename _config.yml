@@ -2,7 +2,7 @@ title: BSides Oslo 2025
 description: October 30th at Vulkan Area. CFP is accepting submissions.
 event:
   location: Vulkan Arena
-  time: 30 October 2025 
+  time: 30 October 2025
 
 show_buttons: true
 buttons:
@@ -10,6 +10,8 @@ buttons:
    url: https://www.letsreg.com/no/event/bsidesoslo2025
  - text: Sponsor information
    url: /pages/SponsorPrimer
+ - text: Call for volunteers
+   url: /pages/CallForVolunteers
 
 # Social media links
 socials:
@@ -32,6 +34,10 @@ socials:
   svg: letter
   url: mailto:info@bsidesoslo.no 
 
+collections:
+  talks:
+    output: true
+
 # Website stuff
 exclude: 
  - .sass-cache/
@@ -44,4 +50,4 @@ exclude:
  - CODE_OF_CONDUCT.md
  - LICENSE
  - README.md
- - .devcontainers
+ - .devcontainer
