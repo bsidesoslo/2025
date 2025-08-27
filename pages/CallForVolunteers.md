@@ -2,7 +2,7 @@
 title: Call for volunteers
 layout: page
 ---
-BSides Oslo is completly run by volunteers aiming to create the best conference for the to share the cool stuff our community is doing. The goal has been to have an event where sharing and exchanging ideas. For the first time since we started in 2019, we're reaching out to the community to see if anyone is interested in helping out.
+BSides Oslo is completly run by volunteers aiming to create the best conference to share the cool stuff our community is doing. For the first time since we started in 2019, we're reaching out to the community to see if anyone is interested in helping out.
 
 Some suggestions of areas where you might be able to help:
 
