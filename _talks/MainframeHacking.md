@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Mainframe Hacking in 2025"
+title: "Fun Having; Mainframe Hacking - Exploring z/OS"
 duration: 45
 scheduled: "15:05"
 speakers: 
