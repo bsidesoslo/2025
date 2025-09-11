@@ -19,6 +19,17 @@ speakers:
          url: https://www.linkedin.com/in/veronica-schmitt-b4044526/
        - type: twitter
          url: https://x.com/@po1zon_p1x13
+  - name: Emlyn Butterfield
+    image: emlyn-butterfield.jpg
+    bio: |
+      Emlyn Butterfield is an experienced academic leader, digital forensics specialist, and cybersecurity educator. Currently serving as Rector at Noroff University College, he has a background in higher education management, curriculum development, and research supervision. With over a decade of experience in academia, he has held key roles such as Head of Computing and Programme Lead for Digital Forensics, contributing to the advancement of forensic education and research.
+
+      His research focuses on forensic automation, mobile device forensics, and cybersecurity pedagogy. As a Senior Fellow of the Higher Education Academy, he is dedicated to enhancing teaching practices and fostering student engagement through innovative methodologies.
+
+      Beyond academia, he has been involved in research, teaching, and academic leadership, as well as serving as an external examiner and reviewer for universities in the UK. His industry experience includes roles in digital forensics investigations and expert witness services.
+
+      He holds an MSc in Forensic Computing from the University of Bradford and a BSc in Computer Science from the University of Hull. His professional training includes certifications in EnCase, XRY, and various forensic analysis tools.
+    socials:
 ---
 To most developers, logs are a debugging tool. To attackers, they’re a treasure map. In this talk, we’ll dive into the dark side of logging from two perspectives: the malicious actor looking for weaknesses, and the forensic analyst trying to pick up the pieces after a breach.
 
