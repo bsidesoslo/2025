@@ -12,7 +12,9 @@ silver:
   - logo: gurusoft.png
     name: Gurusoft
     url: https://www.gurusoft.no/
-  
+  - logo: nav.png
+    name: NAV
+    url: https://detsombetyrnoe.no
 community:
   - name: O3c Cyber
     logo: 03c.png
