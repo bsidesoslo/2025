@@ -1,5 +1,5 @@
 - title: Registration and breakfast
-  scheduled: "08:30"
+  scheduled: "08:15"
 - title: Introduction
   scheduled: "08:55"
 - title: Keynote (TBA)
@@ -12,5 +12,7 @@
   scheduled: "14:50"
 - title: Closing remarks
   scheduled: "16:45"
-- title: End
+- title: Pre-dinner mingling
   scheduled: "17:00"
+- title: Dinner
+  scheduled: "18:30"
