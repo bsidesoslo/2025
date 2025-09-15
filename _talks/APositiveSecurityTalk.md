@@ -5,7 +5,7 @@ duration: 20
 scheduled: "15:50"
 speakers: 
   - name: Martin Londal
-    image: 
+    image: Martin_Londal.jpg
     bio: |
       An ex-software engineer, now working as a Senior Penetration Tester and Security Advisor at the Police IT Unit (PIT) in Norway. A team lead for the penetration testing team and I am one of the leaders of PIT's Security Champions, focusing on imparting security concepts through hands-on training and engaging presentations. 
       
