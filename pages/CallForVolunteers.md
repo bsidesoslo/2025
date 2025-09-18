@@ -2,21 +2,16 @@
 title: Call for volunteers
 layout: page
 ---
-BSides Oslo is completly run by volunteers aiming to create the best conference to share the cool stuff our community is doing. For the first time since we started in 2019, we're reaching out to the community to see if anyone is interested in helping out.
+Security BSides Oslo is a non-profit event 100% executed by volunteers aiming to create the best conference for our community. For the first time since we started in 2019, we're explicitly reaching to see if anyone is interested in helping out.
 
-Some suggestions of areas where you might be able to help:
+There is a lot that goes into executing an event like BSides, not only on the day of the event, but an on ongoing basis. There is a wide range of opportunities to contribute from more general tasks related to setup, registration, etc. on the day of the event to more specialized tasks that are required before/after the event or on an ongoing basis: sponsor management, social media management, media production, hosting a village, organizing a CTF, etc.
 
- * Design and graphics.
- * Website management.
- * Hosting a CTF.
- * Running a village.
- * Help out at the conference.
- * +++
-
-We appreciate all the help we can get. If you'd like to contribute in continuing and maybe even improving BSides Oslo from with, please get in touch by dropping us an [e-mail](mailto:info@bsidesoslo.no?subject="Call for volunteers") with the subject "Call for volunteers", and tell us how you'd like to help.
+If you'd like to contribute and improve BSides Oslo from within, please fill out this short [Call for Volunteers](https://forms.gle/s6mjPBiSF6ieEcbm7) form to tell us a little bit about yourself and how you'd like to help.
 
 What we can offer:
- * Helping out organizing a swell conference.
+ * The experience of organizing and/or executing an established, radically accessible information security conference in the heart of Oslo for 250+ participants.
+ * A swell bunch of fellow volunteers to work with.
+ * The sense of impact and satisfication that comes with supporting your community.
  * A badge that says "organizer" on it.
  * First pick of pastries before the conference starts.
- * Coming up on the stage after the conference ends.
+ * Coming up on the stage at the end of the conference.
