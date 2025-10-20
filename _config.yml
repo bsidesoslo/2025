@@ -6,10 +6,6 @@ event:
 
 show_buttons: true
 buttons:
- - text: Tickets
-   url: https://www.letsreg.com/no/event/bsidesoslo2025
- - text: Sponsor information
-   url: /pages/SponsorPrimer
  - text: Call for volunteers
    url: /pages/CallForVolunteers
 
