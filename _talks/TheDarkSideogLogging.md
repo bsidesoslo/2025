@@ -2,7 +2,7 @@
 layout: talk
 title: "The Dark Side of Logging (From the Eyes of an Attacker and a Forensic Analyst)"
 duration: 45
-scheduled: "15:05"
+scheduled: "14:05"
 speakers: 
   -  name: Veronica Schmitt
      image: Veronica_Schmitt.jpg
