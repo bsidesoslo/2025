@@ -2,7 +2,7 @@
 layout: talk
 title: "Beyond the Breaches: what I learned from the Datatilsynet reports"
 duration: 45
-scheduled: "13:00"
+scheduled: "12:50"
 speakers: 
   -  name: Michael Markevich
      image: Michael_Markevich.jpg

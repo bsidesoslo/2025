@@ -2,7 +2,7 @@
 layout: talk
 title: "Fun Having; Mainframe Hacking - Exploring z/OS"
 duration: 45
-scheduled: "15:05"
+scheduled: "14:55"
 speakers: 
   -  name: Jack Fitzsimons 
      image: Jack_Fitzsimons.jpg

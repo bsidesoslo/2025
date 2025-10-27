@@ -2,7 +2,7 @@
 layout: talk
 title: "A positive security talk"
 duration: 20
-scheduled: "15:50"
+scheduled: "15:40"
 speakers: 
   - name: Martin Londal
     image: Martin_Londal.jpg
